@@ -26,33 +26,29 @@ class SignUpScreenState extends State<SignUpScreen> {
     Widget widgetName = TextField(
       controller: _txtName,
       decoration: InputDecoration(
-          border:
-          OutlineInputBorder(borderSide: BorderSide(color: Colors.grey)),
+          border: OutlineInputBorder(borderSide: BorderSide(color: Colors.grey)),
           hintText: "NAME"),
     );
 
     Widget widgetEmailId = TextField(
       controller: _txtEamilId,
       decoration: InputDecoration(
-          border:
-          OutlineInputBorder(borderSide: BorderSide(color: Colors.grey)),
+          border: OutlineInputBorder(borderSide: BorderSide(color: Colors.grey)),
           hintText: "EMAIL"),
     );
 
     Widget widgetMobileNumber = TextField(
       controller: _txtMobileNumber,
       decoration: InputDecoration(
-          border:
-          OutlineInputBorder(borderSide: BorderSide(color: Colors.grey)),
-          hintText: "MOBILE NUMBE"),
+          border: OutlineInputBorder(borderSide: BorderSide(color: Colors.grey)),
+          hintText: "MOBILE NUMBER"),
     );
 
     Widget widgetPassword = TextField(
       controller: _txtPassword,
       obscureText: true,
       decoration: InputDecoration(
-          border:
-          OutlineInputBorder(borderSide: BorderSide(color: Colors.grey)),
+          border: OutlineInputBorder(borderSide: BorderSide(color: Colors.grey)),
           hintText: "PASSWORD"),
     );
 

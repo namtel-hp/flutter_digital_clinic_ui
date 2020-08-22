@@ -22,32 +22,15 @@ class _DoctorListScreenState extends State<DoctorListScreen> {
           child: Scaffold(
             appBar: AppBar(
               backgroundColor: Colors.white,
-              title: Text(
-                "All Doctors",
-                style: TextStyle(color: Colors.black),
-              ),
+              title: Text("All Doctors", style: TextStyle(color: Colors.black),),
               actions: [
-                IconButton(
-                    icon: Icon(
-                      Icons.search,
-                      color: Colors.grey,
-                    ),
-                    onPressed: () {}),
-                IconButton(
-                    icon: Icon(
-                      Icons.location_on,
-                      color: Colors.grey,
-                    ),
-                    onPressed: () {}),
+                IconButton(icon: Icon(Icons.search, color: Colors.grey,), onPressed: () {}),
+                IconButton(icon: Icon(Icons.location_on, color: Colors.grey,), onPressed: () {}),
               ],
               bottom:
-                  TabBar(labelColor: AppConfig.splashBackgroundColor, tabs: [
-                Tab(
-                  text: "ALL DOCTOR",
-                ),
-                Tab(
-                  text: "MY DOCTOR",
-                ),
+              TabBar(labelColor: AppConfig.splashBackgroundColor, tabs: [
+                Tab(text: "ALL DOCTOR",),
+                Tab(text: "MY DOCTOR",),
               ]),
             ),
             body: TabBarView(children: [
